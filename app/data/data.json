@@ -1,0 +1,37 @@
+{
+  "testers": [
+    {
+      "name": "Luca",
+      "link": "http://www.jobninja.eu",
+      "bugs": [
+        {
+          "title": "Crash on Date Select",
+          "status": "solved",
+          "size": 1,
+          "release": "0.2.0",
+          "id": 0
+        },
+        {
+          "title": "Crash on Login",
+          "status": "solved",
+          "size": 2,
+          "release": "0.2.0",
+          "id": 1
+        }
+      ],
+      "reviews":[]
+    },
+    {
+      "name": "Theresa",
+      "link": "http://www.facebook.com",
+      "bugs": [],
+      "reviews": [
+        {
+          "title": "Hint is missing to indicate in which direction you need to swipe",
+          "status": "TBD",
+          "id": 2
+        }
+      ]
+    }
+  ]
+}

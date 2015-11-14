@@ -1,71 +1,119 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contest</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Contest</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <script src="js/modernizr-2.6.2.min.js"></script>
-
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="components/jquery/dist/jquery.min.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="js/jsPut.js"></script>
+<script type="text/javascript" src="js/loadTable.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.min.js"></script>
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-            <![endif]-->
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
 
 
-            <section>
-                <div class="row">
-                    <div class="col-xs-12 grey">
-                        <img src="img/logo_big.png" width=16% class="center-block img-responsive bigLogo">
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="row-eq-height debug">
-                    <div class="col-xs-1 debug"></div>
-                    <div class="col-xs-7 debug">
-                        <p class="welcomeText">Hallo, Wilkommen,<br>
-                            <b>Cheers</b> & <b>Prost!</b></p>
-                        </div>
-                        <div class="col-xs-3 debug"><img src="img/bier_upperPart.png" style="position: absolute; bottom:0; right:0;"></div>
-                        <div class="col-xs-1 debug"></div>
-                    </div>
-                </section>
+<section>
+  <div class="row">
+    <div class="col-xs-12 grey">
+      <img src="img/logo_big.png" width=16% class="center-block img-responsive bigLogo">
+    </div>
+  </div>
+</section>
+<section>
+  <div class="row-eq-height debug">
+    <div class="col-xs-1 debug"></div>
+    <div class="col-xs-7 debug">
+      <p class="welcomeText">Hallo, Wilkommen,<br>
+        <b>Cheers</b> & <b>Prost!</b></p>
+    </div>
+    <div class="col-xs-3 debug"><img src="img/bier_upperPart.png" style="position: absolute; bottom:0; right:0;"></div>
+    <div class="col-xs-1 debug"></div>
+  </div>
+</section>
 
-                <section>
-                    <div class="row-eq-height debug grey" style="padding-top:80px; padding-bottom:80px;">
-                     <div class="col-xs-1"></div>
-                     <div class="col-xs-2"><img src="img/bier_double.png" style="position: absolute; bottom:10px; left:0;"></div>
-                     <div class="col-xs-8 explanation">
-                        <h2>Freibier für Beta Tester</h2>
-                        <p><b>Freibier</b>. Wer liebt das nicht?
-                            Und hier hast du die Chance welches zu gewinnen.<br>Wie kannst du gewinnen?<br>Wir sind ein junges Start-up, welches eine App entwickeltet hat, die Menschen dabei helfen kann, auf schnellen und einfachen Weg einen Job zu finden.<br>Aber wir haben ein Problem. Und dafür brauchen wir dich.<br>
-                            Um unsere App zu optimieren, wollen wir all unsere Bugs aufspüren. Bugs sind Fehler, die dazu führen, das eine App nicht so funtkioniert, wie sie eigentlich funktionieren sollte. Zum Beispiel: Ein Button ist nicht klickbar, die Startseite ist angeschnitten, eine Seite wird nicht geladen, die App stürzt ab, schlechtes Wording, etc.<br>Was genau sollst du nun machen?<br>Lade die App einfach runter und teste sie bequem von zu Hause oder unterwegs. Wenn du einen Bug findest, dann schreibe uns eine Mail an <b>dev@jobninja.eu</b>. Beim Absturz der App klicke auf den Report Button und schreibe im Report deine E-Mail Adresse dazu. Es ist wichtig, dass du uns deine E-Mail Adresse mitschickst, denn bei jedem Bug den du findest, bekommst du ein Freibier von uns.<br>Aber es geht noch besser:<br>Für die drei Tester, die die meisten Bugs finden, gibt es noch einen Specialpreis:<br>Ihr bekommt ein stylisches T-Shirt und seid herzlich zu einer Kneipentour mit dem Jobninja Team eingeladen.<br>Falls du keine Bugs findest, kannst du uns aber trotzdem eine Review 
-                            ber die App geben und so auch Freibier oder ein T-Shirt gewinnen.<br>
-                            Du kannst ab jetzt bis zum <b>15. Dezember</b> die App testen. Danach erfolgt die Auflüsung der Gewinner.
-                        </p>
-                    </div>
-                </div>
-            </section>
+<section>
+  <div class="row-eq-height debug grey masterComponentWithPadding">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-2"><img src="img/bier_double.png" style="position: absolute; bottom:10px; left:0;"></div>
+    <div class="col-xs-8 explanation">
+      <h2 class="sectionTitle">Freibier für Beta Tester</h2>
 
-            <script src="components/jquery/dist/jquery.min.js"></script>
-            <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <p><b>Freibier</b>. Wer liebt das nicht?
+        Und hier hast du die Chance welches zu gewinnen.<br>Wie kannst du gewinnen?<br>Wir sind ein junges Start-up,
+        welches eine App entwickeltet hat, die Menschen dabei helfen kann, auf schnellen und einfachen Weg einen Job zu
+        finden.<br>Aber wir haben ein Problem. Und dafür brauchen wir dich.<br>
+        Um unsere App zu optimieren, wollen wir all unsere Bugs aufspüren. Bugs sind Fehler, die dazu führen, das eine
+        App nicht so funtkioniert, wie sie eigentlich funktionieren sollte. Zum Beispiel: Ein Button ist nicht klickbar,
+        die Startseite ist angeschnitten, eine Seite wird nicht geladen, die App stürzt ab, schlechtes Wording, etc.<br>Was
+        genau sollst du nun machen?<br>Lade die App einfach runter und teste sie bequem von zu Hause oder unterwegs.
+        Wenn du einen Bug findest, dann schreibe uns eine Mail an <b>dev@jobninja.eu</b>. Beim Absturz der App klicke
+        auf den Report Button und schreibe im Report deine E-Mail Adresse dazu. Es ist wichtig, dass du uns deine E-Mail
+        Adresse mitschickst, denn bei jedem Bug den du findest, bekommst du ein Freibier von uns.<br>Aber es geht noch
+        besser:<br>Für die drei Tester, die die meisten Bugs finden, gibt es noch einen Specialpreis:<br>Ihr bekommt ein
+        stylisches T-Shirt und seid herzlich zu einer Kneipentour mit dem Jobninja Team eingeladen.<br>Falls du keine
+        Bugs findest, kannst du uns aber trotzdem eine Review
+        ber die App geben und so auch Freibier oder ein T-Shirt gewinnen.<br>
+        Du kannst ab jetzt bis zum <b>15. Dezember</b> die App testen. Danach erfolgt die Auflüsung der Gewinner.
+      </p>
+    </div>
+  </div>
+</section>
 
-        </body>
+<section>
+  <div class="row">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-7 masterComponentWithPadding">
+      <h2 class="sectionTitle">Aktuelle Scoreboard</h2>
+      <script id="table-template" type="text/x-handlebars-template">
+        <table>
+          <thead>
+          <td>Name</td>
+          <td>Bugs</td>
+          <td>Reviews</td>
+          <td>Score</td>
+          </thead>
+          <tbody>
+          {{#each_with_score_filter testers}}
+          <tr>
+            <td>{{this.name}}</td>
+            <td>{{#each bugs}} <a href="#bug{{this.id}}">#{{this.id}}</a>{{/each}}</td>
+            <td>{{#each reviews}} <a href="#review{{this.id}}">#{{this.id}}</a>{{/each}}</td>
+            <td>{{#score this}}{{output}}{{/score}}</td>
+          </tr>
+          {{/each_with_score_filter}}
+          </tbody>
+        </table>
+      </script>
+      <div id="content-placeholder"></div>
 
-        </html>
+    </div>
+    <div class="col-xs-3"><img src="img/trophy.png"></div>
+    <div class="col-xs-1"></div>
+  </div>
+</section>
+
+</body>
+
+</html>

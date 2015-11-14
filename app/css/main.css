@@ -284,7 +284,7 @@ h2.heading {
     font-size: 4.5vw;
     margin-top: 155px;
     margin-bottom: 206px;
-    font-family: Helvetica;
+    font-family: 'Helvetica Neue','Helvetica';
     color: #b9362e
 }
 
@@ -301,9 +301,14 @@ h2.heading {
 }
 
 .explanation{
-    color: white;
-    font-family: Helvetica;
-    text-align: justify;
+color: white;
+font-family: 'Helvetica Neue Light','Helvetica';
+text-align: justify;
+}
+
+.masterComponentWithPadding{
+    padding-top:80px;
+    padding-bottom:80px;
 }
 
 .grey{

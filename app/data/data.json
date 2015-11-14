@@ -6,14 +6,14 @@
       "bugs": [
         {
           "title": "Crash on Date Select",
-          "status": "solved",
+          "status": 1,
           "size": 1,
           "release": "0.2.0",
           "id": 0
         },
         {
           "title": "Crash on Login",
-          "status": "solved",
+          "status": 1,
           "size": 2,
           "release": "0.2.0",
           "id": 1
@@ -28,7 +28,7 @@
       "reviews": [
         {
           "title": "Hint is missing to indicate in which direction you need to swipe",
-          "status": "TBD",
+          "status": 0,
           "id": 2
         }
       ]

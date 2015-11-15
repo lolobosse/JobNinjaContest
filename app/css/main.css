@@ -344,6 +344,15 @@ h2.heading {
         padding-top: 80px;
         padding-bottom: 80px;
     }
+
+    .bigLogo {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .titleCell {
+        font-size: 150%;
+    }
 }
 
 @media all and (max-width: 580px) {
@@ -366,15 +375,30 @@ h2.heading {
         font-size: 12vw;
     }
 
+
     .masterComponentWithPadding {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-}
 
-.bigLogo {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    .bigLogo {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 110px;
+    }
+
+    .table{
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+
+    .titleCell {
+        font-size: 90%;
+    }
+
+    .scoreBoardContent{
+        font-size: 80%;
+    }
 }
 
 .row-eq-height {
@@ -402,9 +426,6 @@ h2.heading {
     /*border: 1px solid black;*/
 }
 
-td {
-    padding: 10px;
-}
 
 .scoreboard tr:nth-child(2n) {
     background-color: #75706a;
@@ -426,10 +447,6 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-}
-
-.titleCell {
-    font-size: 150%;
 }
 
 .noFancyBorder td {

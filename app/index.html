@@ -97,14 +97,14 @@
 
 <section>
     <div class="row debug">
-        <div class="col-xs-1"></div>
-        <div class="col-xs-10 col-sm-7 masterComponentWithPadding">
+        <div class="col-xs-1 debug"></div>
+        <div class="col-xs-10 col-sm-7 masterComponentWithPadding debug">
             <h2 class="sectionTitle">Aktuelle Scoreboard</h2>
 
             <div id="content-placeholder"></div>
         </div>
         <div class="col-sm-3 hidden-xs"><img class="trophy debug pull-right" src="img/trophy.png"></div>
-        <div class="col-xs-1"></div>
+        <div class="col-xs-1 debug"></div>
     </div>
 </section>
 <section class="hidden-xs">
@@ -140,7 +140,7 @@
             <td>Bier</td>
         </tr>
         {{#each_with_score_filter testers}}
-        <tr>
+        <tr class="scoreBoardContent">
             <td><a href="{{this.link}}">{{this.name}}</a></td>
             <td>{{#each bugs}} <a href="#bug{{this.id}}">#{{this.id}}</a>{{/each}}</td>
             <td>{{#each reviews}} <a href="#review{{this.id}}">#{{this.id}}</a>{{/each}}</td>

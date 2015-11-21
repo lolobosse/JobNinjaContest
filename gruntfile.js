@@ -17,7 +17,7 @@ module.exports = function (grunt) {
         connect: {
             all: {
                 options: {
-                    port: 9000,
+                    port: 81,
                     hostname: "0.0.0.0",
                     // No need for keepalive anymore as watch will keep Grunt running
                     //keepalive: true,
@@ -41,12 +41,12 @@ module.exports = function (grunt) {
         },
 
         // grunt-open will open your browser at the project's URL
-        open: {
-            all: {
+        //open: {
+            //all: {
                 // Gets the port from the connect configuration
-                path: 'http://localhost:9000/'
-            }
-        },
+                //path: 'http://localhost:9000/'
+            //}
+        //},
 
         // grunt-regarde monitors the files and triggers livereload
         // Surprisingly, livereload complains when you try to use grunt-contrib-watch instead of grunt-regarde 
@@ -56,7 +56,8 @@ module.exports = function (grunt) {
                 // to watch Javascript and CSS files too.
                 files: ['**/main.js', '**/*.css', 'app/*.html'],
                 // This configures the task that will run when the file change
-                tasks: ['livereload']
+                //tasks: ['livereload']
+		tasks: []
             }
         }
     });
@@ -67,10 +68,10 @@ module.exports = function (grunt) {
 
     // Starts the livereload server to which the browser will connect to
     // get notified of when it needs to reload
-    'livereload-start',
+    //'livereload-start',
     'connect',
     // Connect is no longer blocking other tasks, so it makes more sense to open the browser after the server starts
-    'open',
+    //'open',
     // Starts monitoring the folders and keep Grunt alive
     'regarde'
   ]);

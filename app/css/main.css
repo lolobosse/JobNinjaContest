@@ -328,6 +328,12 @@ h2.heading {
         color: #b9362e
     }
 
+    .whiteText {
+      color: white;
+      font-family: HelveticaNeueLight, 'Helvetica';
+      text-align: justify;
+    }
+
     .bigBier {
         height: 75%;
     }
@@ -399,6 +405,11 @@ h2.heading {
     .scoreBoardContent{
         font-size: 80%;
     }
+
+    .whiteText {
+      color: white;
+      font-family: HelveticaNeueLight, 'Helvetica';
+    }
 }
 
 .row-eq-height {
@@ -408,11 +419,6 @@ h2.heading {
     display: flex;
 }
 
-.whiteText {
-    color: white;
-    font-family: HelveticaNeueLight, 'Helvetica';
-    text-align: justify;
-}
 
 .grey {
     background-color: #75706a

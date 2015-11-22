@@ -2,7 +2,7 @@
   "testers": [
     {
       "name": "Luca",
-      "link": "http://www.jobninja.eu",
+      "link": "#",
       "bugs": [
         {
           "title": "Crash on Date Select",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Theresa",
-      "link": "http://www.facebook.com",
+      "link": "#",
       "bugs": [],
       "reviews": [
         {

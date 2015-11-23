@@ -32,6 +32,55 @@
           "id": 2
         }
       ]
+    },
+    {
+      "name": "Frieder",
+      "link": "https://www.facebook.com/J.F.K42",
+      "bugs": [
+        {
+          "title": "Crash on the upload of the profile Picture",
+          "status": 0,
+          "id": 3,
+          "size": 2
+        },
+        {
+          "title": "Birthday is not clickable in Profile View",
+          "status": 0,
+          "size": 1,
+          "id": 4
+        },
+        {
+          "title": "Click on the heart of DetailView doesn't like the Job",
+          "status": 0,
+          "size": 2,
+          "id": 5
+        }
+      ],
+      "reviews": [
+        {
+          "title": "Description should be in german",
+          "status": 0,
+          "id": 6
+        },
+        {
+          "title": "Text field doesn't look fine when unselected",
+          "status": 0,
+          "id": 7
+        }
+      ]
+    },
+    {
+      "name": "Stefan",
+      "link": "#",
+      "bugs": [
+        {
+          "title": "Crash on the upload of a photo",
+          "status": 0,
+          "id": 8,
+          "size": 2
+        }
+      ],
+      "reviews": []
     }
   ]
 }

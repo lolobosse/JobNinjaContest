@@ -54,6 +54,19 @@
           "status": 0,
           "size": 2,
           "id": 5
+        },
+        {
+          "title": "App data erased + no Internet: App do no start",
+          "status": 0,
+          "size": 2,
+          "id": 9
+        },
+        {
+          "title": "Lag on dislike and like actions",
+          "status": 1,
+          "size": 1,
+          "id": 11,
+          "release": "0.2.4"
         }
       ],
       "reviews": [
@@ -66,6 +79,11 @@
           "title": "Text field doesn't look fine when unselected",
           "status": 0,
           "id": 7
+        },
+        {
+          "title": "Should not be able to disconnect if not registered",
+          "status": 0,
+          "id": 12
         }
       ]
     },
@@ -81,6 +99,19 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "name":"Mircea",
+      "link":"https://www.facebook.com/mirceaioan.popa",
+      "bugs": [],
+      "reviews": [
+        {
+          "title": "Haben Sie GastRoschein and not Gastoschein",
+          "status": 1,
+          "id": 10,
+	  "release": "0.2.3"
+        }
+      ]
     }
   ]
 }

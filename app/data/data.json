@@ -45,9 +45,10 @@
         },
         {
           "title": "Birthday is not clickable in Profile View",
-          "status": 0,
+          "status": 1,
           "size": 1,
-          "id": 4
+          "id": 4,
+	  "release": "0.2.4"
         },
         {
           "title": "Click on the heart of DetailView doesn't like the Job",
@@ -123,9 +124,30 @@
       "reviews": [
         {
           "title": "Not registered text on Profile View is not centered",
-          "status": 0,
+          "status": 1,
+          "release": "0.2.4",
           "id": 13,
           "description": "I also want beer for the bug I spot!"
+        }
+      ]
+    },
+    {
+      "name":"Philippe",
+      "link":"https://www.linkedin.com/in/phmeyer",
+      "bugs": [
+          {
+          "title": "Dialog comes set in 1992 even if Date was previously set",
+	  "size": 1,
+          "id": 15,
+          "status": 1,
+	  "release": "0.2.4"
+          }
+      ],
+      "reviews": [
+        {
+          "title": "BB doesn't have Google Play Service, need to be displayed correctly",
+          "status": 0,
+          "id": 14
         }
       ]
     }

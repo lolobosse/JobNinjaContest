@@ -57,9 +57,10 @@
         },
         {
           "title": "App data erased + no Internet: App do no start",
-          "status": 0,
+          "status": 1,
           "size": 2,
-          "id": 9
+          "id": 9,
+	  "release": "0.2.4"
         },
         {
           "title": "Lag on dislike and like actions",
@@ -72,8 +73,9 @@
       "reviews": [
         {
           "title": "Description should be in german",
-          "status": 0,
-          "id": 6
+          "status": 1,
+          "id": 6,
+	  "release": "0.2.4"
         },
         {
           "title": "Text field doesn't look fine when unselected",
@@ -92,16 +94,17 @@
       "link": "#",
       "bugs": [
         {
-          "title": "Crash on the upload of a photo",
-          "status": 0,
+          "title": "Crash on refresh",
+          "status": 1,
           "id": 8,
-          "size": 2
+          "size": 2,
+	  "release": "0.2.4"
         }
       ],
       "reviews": []
     },
     {
-      "name":"Mircea",
+      "name":"Mircea (JobNinja Team)",
       "link":"https://www.facebook.com/mirceaioan.popa",
       "bugs": [],
       "reviews": [
@@ -110,6 +113,19 @@
           "status": 1,
           "id": 10,
 	  "release": "0.2.3"
+        }
+      ]
+    },
+    {
+      "name":"Laurent (JobNinja Team)",
+      "link":"https://www.facebook.com/lolo.meyer",
+      "bugs": [],
+      "reviews": [
+        {
+          "title": "Not registered text on Profile View is not centered",
+          "status": 0,
+          "id": 13,
+          "description": "I also want beer for the bug I spot!"
         }
       ]
     }

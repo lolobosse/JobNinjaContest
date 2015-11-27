@@ -99,7 +99,13 @@
           "title": "Should not be able to disconnect if not registered",
           "status": 0,
           "id": 12
-        }
+        },
+	{
+	   "title": "Birthday should be clickable in one click",
+	   "status": 1,
+           "id": 18,
+           "release": "0.2.5"
+	}
       ]
     },
     {

@@ -17,9 +17,21 @@
           "size": 2,
           "release": "0.2.0",
           "id": 1
-        }
+        },
+        {
+         "title": "Click on Photo on Profile doesn't work",
+         "status": 0,
+         "size": 1,
+         "id": 17
+	}
       ],
-      "reviews":[]
+      "reviews": [
+	{
+        "title": "Facebook button doesn't look fine on One Plus One",
+        "status": 0,
+        "id":16
+	}
+    ]
     },
     {
       "name": "Theresa",

@@ -19,19 +19,19 @@
           "id": 1
         },
         {
-         "title": "Click on Photo on Profile doesn't work",
-         "status": 0,
-         "size": 1,
-         "id": 17
-	}
+          "title": "Click on Photo on Profile doesn't work",
+          "status": 0,
+          "size": 1,
+          "id": 17
+        }
       ],
       "reviews": [
-	{
-        "title": "Facebook button doesn't look fine on One Plus One",
-        "status": 0,
-        "id":16
-	}
-    ]
+        {
+          "title": "Facebook button doesn't look fine on One Plus One",
+          "status": 0,
+          "id":16
+        }
+      ]
     },
     {
       "name": "Theresa",
@@ -60,7 +60,7 @@
           "status": 1,
           "size": 1,
           "id": 4,
-	  "release": "0.2.4"
+          "release": "0.2.4"
         },
         {
           "title": "Click on the heart of DetailView doesn't like the Job",
@@ -73,7 +73,7 @@
           "status": 1,
           "size": 2,
           "id": 9,
-	  "release": "0.2.4"
+          "release": "0.2.4"
         },
         {
           "title": "Lag on dislike and like actions",
@@ -88,7 +88,7 @@
           "title": "Description should be in german",
           "status": 1,
           "id": 6,
-	  "release": "0.2.4"
+          "release": "0.2.4"
         },
         {
           "title": "Text field doesn't look fine when unselected",
@@ -100,12 +100,12 @@
           "status": 0,
           "id": 12
         },
-	{
-	   "title": "Birthday should be clickable in one click",
-	   "status": 1,
-           "id": 18,
-           "release": "0.2.5"
-	}
+        {
+          "title": "Birthday should be clickable in one click",
+          "status": 1,
+          "id": 18,
+          "release": "0.2.5"
+        }
       ]
     },
     {
@@ -117,7 +117,7 @@
           "status": 1,
           "id": 8,
           "size": 2,
-	  "release": "0.2.4"
+          "release": "0.2.4"
         }
       ],
       "reviews": []
@@ -131,7 +131,7 @@
           "title": "Haben Sie GastRoschein and not Gastoschein",
           "status": 1,
           "id": 10,
-	  "release": "0.2.3"
+          "release": "0.2.3"
         }
       ]
     },
@@ -153,13 +153,13 @@
       "name":"Philippe",
       "link":"https://www.linkedin.com/in/phmeyer",
       "bugs": [
-          {
+        {
           "title": "Dialog comes set in 1992 even if Date was previously set",
-	  "size": 1,
+          "size": 1,
           "id": 15,
           "status": 1,
-	  "release": "0.2.4"
-          }
+          "release": "0.2.4"
+        }
       ],
       "reviews": [
         {
@@ -168,6 +168,20 @@
           "id": 14
         }
       ]
+    },
+    {
+      "name": "Shane",
+      "link": "#",
+      "bugs": [
+        {
+          "title": "The dialog to indicate no location is not appearing properly",
+          "size": 3,
+          "id": 19,
+          "status": 1,
+          "release": "0.2.5"
+        }
+      ],
+      "reviews": []
     }
   ]
 }

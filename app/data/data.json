@@ -179,6 +179,28 @@
           "id": 19,
           "status": 1,
           "release": "0.2.5"
+        },
+        {
+          "title": "Android 6 not working",
+          "size": 2,
+          "id": 20,
+          "status": 1,
+          "release": "0.2.5"
+        }
+
+      ],
+      "reviews": []
+    },
+    {
+      "name": "Rudi",
+      "link": "#",
+      "bugs": [
+        {
+          "title": "Android 6 Security Exception",
+          "size": 2,
+          "id": 21,
+          "status": 1,
+          "release": "0.2.5"
         }
       ],
       "reviews": []

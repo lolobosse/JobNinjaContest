@@ -81,6 +81,12 @@
           "size": 1,
           "id": 11,
           "release": "0.2.4"
+        },
+        {
+          "title": "If go back on the app after signup/login, you get the old activity",
+          "status": 0,
+          "size": 2,
+          "id": 22
         }
       ],
       "reviews": [
@@ -201,6 +207,12 @@
           "id": 21,
           "status": 1,
           "release": "0.2.5"
+        },
+        {
+          "title": "Error -504 on Play Store",
+          "size": 1,
+          "id": 23,
+          "status": 0
         }
       ],
       "reviews": []

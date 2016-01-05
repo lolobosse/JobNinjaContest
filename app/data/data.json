@@ -212,7 +212,22 @@
           "title": "Error -504 on Play Store",
           "size": 1,
           "id": 23,
-          "status": 0
+          "status": 1,
+          "release": "Not a bug"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "name": "Miguel",
+      "link": "#",
+      "bugs": [
+        {
+          "title": "Analytics failure on JobDetail (crashes the app)",
+          "size": 2,
+          "id": 24,
+          "status": 1,
+          "release": "0.2.6"
         }
       ],
       "reviews": []

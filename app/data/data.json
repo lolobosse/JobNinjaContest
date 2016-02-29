@@ -216,7 +216,16 @@
           "release": "Not a bug"
         }
       ],
-      "reviews": []
+      "reviews": [{
+          "title": "No feedback appearing when swiping",
+          "status": 0,
+          "id": 25
+        },{
+          "title": "Have a backup behaviour when no location",
+          "status": 0,
+          "id": 26
+        }
+          ]
     },
     {
       "name": "Miguel",
@@ -228,6 +237,20 @@
           "id": 24,
           "status": 1,
           "release": "0.2.6"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "name": "Xenia",
+      "link": "#",
+      "bugs": [
+        {
+          "title": "App is not available outside Germany",
+          "size": 1,
+          "id": 27,
+          "status": 1,
+          "release": "0.2.4"
         }
       ],
       "reviews": []
